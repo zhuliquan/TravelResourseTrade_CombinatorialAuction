@@ -1,0 +1,442 @@
+%%% ====================================================================
+%%%  BibTeX-file{
+%%%     author          = "Gerry Murray",
+%%%     version         = "1.2",
+%%%     date            = "2 April 2012",
+%%%     filename        = "acmsmall-sample-bibfile.bib",
+%%%     address         = "ACM, NY",
+%%%     email           = "murray at hq.acm.org",
+%%%     codetable       = "ISO/ASCII",
+%%%     keywords        = "ACM Reference Format, bibliography, citation, references",
+%%%     supported       = "yes",
+%%%     docstring       = "This BibTeX database file contains 'bibdata' entries
+%%%                        that 'match' the examples provided in the Specifications Document
+%%%                        AND, also, 'legacy'-type bibs. It should assist authors in
+%%%                        choosing the 'correct' at-bibtype and necessary bib-fields
+%%%                        so as to obtain the appropriate ACM Reference Format output.
+%%%			   It also contains many 'Standard Abbreviations'. "
+%%%  }
+%%% ====================================================================
+
+% Journals
+
+% First the Full Name is given, then the abbreviation used in the AMS Math
+% Reviews, with an indication if it could not be found there.
+% Note the 2nd overwrites the 1st, so swap them if you want the full name.
+
+ %{AMS}
+ @String{AMSTrans = "American Mathematical Society Translations" }
+ @String{AMSTrans = "Amer. Math. Soc. Transl." }
+ @String{BullAMS = "Bulletin of the American Mathematical Society" }
+ @String{BullAMS = "Bull. Amer. Math. Soc." }
+ @String{ProcAMS = "Proceedings of the American Mathematical Society" }
+ @String{ProcAMS = "Proc. Amer. Math. Soc." }
+ @String{TransAMS = "Transactions of the American Mathematical Society" }
+ @String{TransAMS = "Trans. Amer. Math. Soc." }
+
+ %ACM
+ @String{CACM = "Communications of the {ACM}" }
+ @String{CACM = "Commun. {ACM}" }
+ @String{CompServ = "Comput. Surveys" }
+ @String{JACM = "J. ACM" }
+ @String{ACMMathSoft = "{ACM} Transactions on Mathematical Software" }
+ @String{ACMMathSoft = "{ACM} Trans. Math. Software" }
+ @String{SIGNUM = "{ACM} {SIGNUM} Newsletter" }
+ @String{SIGNUM = "{ACM} {SIGNUM} Newslett." }
+
+ @String{AmerSocio = "American Journal of Sociology" }
+ @String{AmerStatAssoc = "Journal of the American Statistical Association" }
+ @String{AmerStatAssoc = "J. Amer. Statist. Assoc." }
+ @String{ApplMathComp = "Applied Mathematics and Computation" }
+ @String{ApplMathComp = "Appl. Math. Comput." }
+ @String{AmerMathMonthly = "American Mathematical Monthly" }
+ @String{AmerMathMonthly = "Amer. Math. Monthly" }
+ @String{BIT = "{BIT}" }
+ @String{BritStatPsych = "British Journal of Mathematical and Statistical
+          Psychology" }
+ @String{BritStatPsych = "Brit. J. Math. Statist. Psych." }
+ @String{CanMathBull = "Canadian Mathematical Bulletin" }
+ @String{CanMathBull = "Canad. Math. Bull." }
+ @String{CompApplMath = "Journal of Computational and Applied Mathematics" }
+ @String{CompApplMath = "J. Comput. Appl. Math." }
+ @String{CompPhys = "Journal of Computational Physics" }
+ @String{CompPhys = "J. Comput. Phys." }
+ @String{CompStruct = "Computers and Structures" }
+ @String{CompStruct = "Comput. \& Structures" }
+ @String{CompJour = "The Computer Journal" }
+ @String{CompJour = "Comput. J." }
+ @String{CompSysSci = "Journal of Computer and System Sciences" }
+ @String{CompSysSci = "J. Comput. System Sci." }
+ @String{Computing = "Computing" }
+ @String{ContempMath = "Contemporary Mathematics" }
+ @String{ContempMath = "Contemp. Math." }
+ @String{Crelle = "Crelle's Journal" }
+ @String{GiornaleMath = "Giornale di Mathematiche" }
+ @String{GiornaleMath = "Giorn. Mat." } % didn't find in AMS MR., ibid.
+
+ %IEEE
+ @String{Computer = "{IEEE} Computer" }
+ @String{IEEETransComp = "{IEEE} Transactions on Computers" }
+ @String{IEEETransComp = "{IEEE} Trans. Comput." }
+ @String{IEEETransAC = "{IEEE} Transactions on Automatic Control" }
+ @String{IEEETransAC = "{IEEE} Trans. Automat. Control" }
+ @String{IEEESpec = "{IEEE} Spectrum" } % didn't find in AMS MR
+ @String{ProcIEEE = "Proceedings of the {IEEE}" }
+ @String{ProcIEEE = "Proc. {IEEE}" } % didn't find in AMS MR
+ @String{IEEETransAeroElec = "{IEEE} Transactions on Aerospace and Electronic
+     Systems" }
+ @String{IEEETransAeroElec = "{IEEE} Trans. Aerospace Electron. Systems" }
+
+ @String{IMANumerAna = "{IMA} Journal of Numerical Analysis" }
+ @String{IMANumerAna = "{IMA} J. Numer. Anal." }
+ @String{InfProcLet = "Information Processing Letters" }
+ @String{InfProcLet = "Inform. Process. Lett." }
+ @String{InstMathApp = "Journal of the Institute of Mathematics and
+     its Applications" }
+ @String{InstMathApp = "J. Inst. Math. Appl." }
+ @String{IntControl = "International Journal of Control" }
+ @String{IntControl = "Internat. J. Control" }
+ @String{IntNumerEng = "International Journal for Numerical Methods in
+     Engineering" }
+ @String{IntNumerEng = "Internat. J. Numer. Methods Engrg." }
+ @String{IntSuper = "International Journal of Supercomputing Applications" }
+ @String{IntSuper = "Internat. J. Supercomputing Applic." } % didn't find
+%% in AMS MR
+ @String{Kibernetika = "Kibernetika" }
+ @String{JResNatBurStand = "Journal of Research of the National Bureau
+     of Standards" }
+ @String{JResNatBurStand = "J. Res. Nat. Bur. Standards" }
+ @String{LinAlgApp = "Linear Algebra and its Applications" }
+ @String{LinAlgApp = "Linear Algebra Appl." }
+ @String{MathAnaAppl = "Journal of Mathematical Analysis and Applications" }
+ @String{MathAnaAppl = "J. Math. Anal. Appl." }
+ @String{MathAnnalen = "Mathematische Annalen" }
+ @String{MathAnnalen = "Math. Ann." }
+ @String{MathPhys = "Journal of Mathematical Physics" }
+ @String{MathPhys = "J. Math. Phys." }
+ @String{MathComp = "Mathematics of Computation" }
+ @String{MathComp = "Math. Comp." }
+ @String{MathScand = "Mathematica Scandinavica" }
+ @String{MathScand = "Math. Scand." }
+ @String{TablesAidsComp = "Mathematical Tables and Other Aids to Computation" }
+ @String{TablesAidsComp = "Math. Tables Aids Comput." }
+ @String{NumerMath = "Numerische Mathematik" }
+ @String{NumerMath = "Numer. Math." }
+ @String{PacificMath = "Pacific Journal of Mathematics" }
+ @String{PacificMath = "Pacific J. Math." }
+ @String{ParDistComp = "Journal of Parallel and Distributed Computing" }
+ @String{ParDistComp = "J. Parallel and Distrib. Comput." } % didn't find
+%% in AMS MR
+ @String{ParComputing = "Parallel Computing" }
+ @String{ParComputing = "Parallel Comput." }
+ @String{PhilMag = "Philosophical Magazine" }
+ @String{PhilMag = "Philos. Mag." }
+ @String{ProcNAS = "Proceedings of the National Academy of Sciences
+                    of the USA" }
+ @String{ProcNAS = "Proc. Nat. Acad. Sci. U. S. A." }
+ @String{Psychometrika = "Psychometrika" }
+ @String{QuartMath = "Quarterly Journal of Mathematics, Oxford, Series (2)" }
+ @String{QuartMath = "Quart. J. Math. Oxford Ser. (2)" }
+ @String{QuartApplMath = "Quarterly of Applied Mathematics" }
+ @String{QuartApplMath = "Quart. Appl. Math." }
+ @String{RevueInstStat = "Review of the International Statisical Institute" }
+ @String{RevueInstStat = "Rev. Inst. Internat. Statist." }
+
+ %SIAM
+ @String{JSIAM = "Journal of the Society for Industrial and Applied
+     Mathematics" }
+ @String{JSIAM = "J. Soc. Indust. Appl. Math." }
+ @String{JSIAMB = "Journal of the Society for Industrial and Applied
+     Mathematics, Series B, Numerical Analysis" }
+ @String{JSIAMB = "J. Soc. Indust. Appl. Math. Ser. B Numer. Anal." }
+ @String{SIAMAlgMeth = "{SIAM} Journal on Algebraic and Discrete Methods" }
+ @String{SIAMAlgMeth = "{SIAM} J. Algebraic Discrete Methods" }
+ @String{SIAMAppMath = "{SIAM} Journal on Applied Mathematics" }
+ @String{SIAMAppMath = "{SIAM} J. Appl. Math." }
+ @String{SIAMComp = "{SIAM} Journal on Computing" }
+ @String{SIAMComp = "{SIAM} J. Comput." }
+ @String{SIAMMatrix = "{SIAM} Journal on Matrix Analysis and Applications" }
+ @String{SIAMMatrix = "{SIAM} J. Matrix Anal. Appl." }
+ @String{SIAMNumAnal = "{SIAM} Journal on Numerical Analysis" }
+ @String{SIAMNumAnal = "{SIAM} J. Numer. Anal." }
+ @String{SIAMReview = "{SIAM} Review" }
+ @String{SIAMReview = "{SIAM} Rev." }
+ @String{SIAMSciStat = "{SIAM} Journal on Scientific and Statistical
+     Computing" }
+ @String{SIAMSciStat = "{SIAM} J. Sci. Statist. Comput." }
+
+ @String{SoftPracExp = "Software Practice and Experience" }
+ @String{SoftPracExp = "Software Prac. Experience" } % didn't find in AMS MR
+ @String{StatScience = "Statistical Science" }
+ @String{StatScience = "Statist. Sci." }
+ @String{Techno = "Technometrics" }
+ @String{USSRCompMathPhys = "{USSR} Computational Mathematics and Mathematical
+     Physics" }
+ @String{USSRCompMathPhys = "{U. S. S. R.} Comput. Math. and Math. Phys." }
+ @String{VLSICompSys = "Journal of {VLSI} and Computer Systems" }
+ @String{VLSICompSys = "J. {VLSI} Comput. Syst." }
+ @String{ZAngewMathMech = "Zeitschrift fur Angewandte Mathematik und
+     Mechanik" }
+ @String{ZAngewMathMech = "Z. Angew. Math. Mech." }
+ @String{ZAngewMathPhys = "Zeitschrift fur Angewandte Mathematik und Physik" }
+ @String{ZAngewMathPhys = "Z. Angew. Math. Phys." }
+
+% Publishers % ================================================= |
+
+ @String{Academic = "Academic Press" }
+ @String{ACMPress = "{ACM} Press" }
+ @String{AdamHilger = "Adam Hilger" }
+ @String{AddisonWesley = "Addison-Wesley" }
+ @String{AllynBacon = "Allyn and Bacon" }
+ @String{AMS = "American Mathematical Society" }
+ @String{Birkhauser = "Birkha{\"u}ser" }
+ @String{CambridgePress = "Cambridge University Press" }
+ @String{Chelsea = "Chelsea" }
+ @String{ClaredonPress = "Claredon Press" }
+ @String{DoverPub = "Dover Publications" }
+ @String{Eyolles = "Eyolles" }
+ @String{HoltRinehartWinston = "Holt, Rinehart and Winston" }
+ @String{Interscience = "Interscience" }
+ @String{JohnsHopkinsPress = "The Johns Hopkins University Press" }
+ @String{JohnWileySons = "John Wiley and Sons" }
+ @String{Macmillan = "Macmillan" }
+ @String{MathWorks = "The Math Works Inc." }
+ @String{McGrawHill = "McGraw-Hill" }
+ @String{NatBurStd = "National Bureau of Standards" }
+ @String{NorthHolland = "North-Holland" }
+ @String{OxfordPress = "Oxford University Press" }  %address Oxford or London?
+ @String{PergamonPress = "Pergamon Press" }
+ @String{PlenumPress = "Plenum Press" }
+ @String{PrenticeHall = "Prentice-Hall" }
+ @String{SIAMPub = "{SIAM} Publications" }
+ @String{Springer = "Springer-Verlag" }
+ @String{TexasPress = "University of Texas Press" }
+ @String{VanNostrand = "Van Nostrand" }
+ @String{WHFreeman = "W. H. Freeman and Co." }
+
+%Entries
+@inproceedings{DBLP:conf/icms/MaherMPRSS16,
+  author    = {Stephen J. Maher and
+               Matthias Miltenberger and
+               Jo{\~{a}}o Pedro Pedroso and
+               Daniel Rehfeldt and
+               Robert Schwarz and
+               Felipe Serrano},
+  title     = {PySCIPOpt: Mathematical Programming in Python with the {SCIP} Optimization
+               Suite},
+  booktitle = {Mathematical Software - {ICMS} 2016 - 5th International Conference,
+               Berlin, Germany, July 11-14, 2016, Proceedings},
+  pages     = {301--307},
+  year      = {2016},
+  crossref  = {DBLP:conf/icms/2016},
+  url       = {https://doi.org/10.1007/978-3-319-42432-3\_37},
+  doi       = {10.1007/978-3-319-42432-3\_37},
+  timestamp = {Fri, 02 Nov 2018 09:48:18 +0100},
+  biburl    = {https://dblp.org/rec/bib/conf/icms/MaherMPRSS16},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+@article{howe2006rise,
+  title={The rise of crowdsourcing},
+  author={Howe, Jeff},
+  journal={Wired magazine},
+  volume={14},
+  number={6},
+  pages={1--4},
+  year={2006}
+}
+@article{ipeirotis2010analyzing,
+  title={Analyzing the amazon mechanical turk marketplace},
+  author={Ipeirotis, Panagiotis G},
+  journal={XRDS: Crossroads, The ACM Magazine for Students},
+  volume={17},
+  number={2},
+  pages={16--21},
+  year={2010},
+  publisher={ACM}
+}
+@inproceedings{DBLP:conf/aaai/Tran-ThanhHRRJ15,
+  author    = {Long Tran{-}Thanh and
+               Trung Dong Huynh and
+               Avi Rosenfeld and
+               Sarvapali D. Ramchurn and
+               Nicholas R. Jennings},
+  title     = {Crowdsourcing Complex Workflows under Budget Constraints},
+  booktitle = {Proceedings of the Twenty-Ninth {AAAI} Conference on Artificial Intelligence,
+               January 25-30, 2015, Austin, Texas, {USA.}},
+  pages     = {1298--1304},
+  year      = {2015},
+  crossref  = {DBLP:conf/aaai/2015},
+  url       = {http://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9529}
+}
+@inproceedings{liu2018reverse,
+  title={Reverse Auction Based Incentive Mechanism for Location-Aware Sensing in Mobile Crowd Sensing},
+  author={Liu, Yuanni and Li, Huicong and Zhao, Guofeng and Duan, Jie},
+  booktitle={2018 IEEE International Conference on Communications (ICC)},
+  pages={1--6},
+  year={2018},
+  organization={IEEE}
+}
+@article{DBLP:journals/twc/XuXY15,
+  author    = {Jia Xu and
+               Jinxin Xiang and
+               Dejun Yang},
+  title     = {Incentive Mechanisms for Time Window Dependent Tasks in Mobile Crowdsensing},
+  journal   = {{IEEE} Trans. Wireless Communications},
+  volume    = {14},
+  number    = {11},
+  pages     = {6353--6364},
+  year      = {2015},
+  url       = {https://doi.org/10.1109/TWC.2015.2452923},
+  doi       = {10.1109/TWC.2015.2452923},
+  timestamp = {Mon, 06 Aug 2018 16:59:55 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/twc/XuXY15},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+@techreport{GleixnerEtal2018OO,
+  author = {Ambros Gleixner and Michael Bastubbe and Leon Eifler and Tristan Gally and Gerald Gamrath and Robert Lion Gottwald and Gregor Hendel and Christopher Hojny and Thorsten Koch and Marco E. L{\"u}bbecke and Stephen J. Maher and Matthias Miltenberger and Benjamin M{\"u}ller and Marc E. Pfetsch and Christian Puchert and Daniel Rehfeldt and Franziska Schl{\"o}sser and Christoph Schubert and Felipe Serrano and Yuji Shinano and Jan Merlin Viernickel and Matthias Walter and Fabian Wegscheider and Jonas T. Witt and Jakob Witzig},
+  title = {{The SCIP Optimization Suite 6.0}},
+  type = {Technical Report},
+  institution = {Optimization Online},
+  month = {July},
+  year = {2018},
+  url = {http://www.optimization-online.org/DB_HTML/2018/07/6692.html}
+}
+@book{Cramton2006Combinatorial,
+  title={Combinatorial Auctions},
+  author={Cramton, Peter and Shoham, Yoav and Steinberg, Richard},
+  publisher={MIT Press,},
+  pages={147-176},
+  year={2006},
+}
+@article{Sandholm1999Algorithm,
+  title={Algorithm for optimal winner determination in combinatorial auctions ☆},
+  author={Sandholm, Tuomas},
+  journal={Artificial Intelligence},
+  volume={135},
+  number={1},
+  pages={1-54},
+  year={1999},
+}
+@inproceedings{DBLP:conf/wcnc/CuiS0GDYL18,
+  author    = {Jingmei Cui and
+               Yu{-}e Sun and
+               He Huang and
+               Hansong Guo and
+               Yang Du and
+               Wenjian Yang and
+               Meixuan Li},
+  title     = {{TCAM:} {A} truthful combinatorial auction mechanism for crowdsourcing
+               systems},
+  booktitle = {2018 {IEEE} Wireless Communications and Networking Conference, {WCNC}
+               2018, Barcelona, Spain, April 15-18, 2018},
+  pages     = {1--6},
+  year      = {2018},
+  crossref  = {DBLP:conf/wcnc/2018},
+  url       = {https://doi.org/10.1109/WCNC.2018.8377240},
+  doi       = {10.1109/WCNC.2018.8377240},
+  timestamp = {Thu, 14 Jun 2018 15:10:08 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/wcnc/CuiS0GDYL18},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+@article{DBLP:journals/twc/ZhanCLL14,
+  author    = {Shun{-}Cheng Zhan and
+               Shi{-}Chung Chang and
+               Peter B. Luh and
+               Hao{-}Huai Lieu},
+  title     = {Truthful Auction Mechanism Design for Short-Interval Secondary Spectrum
+               Access Market},
+  journal   = {{IEEE} Trans. Wireless Communications},
+  volume    = {13},
+  number    = {3},
+  pages     = {1471--1481},
+  year      = {2014},
+  url       = {https://doi.org/10.1109/TWC.2014.012314.130766},
+  doi       = {10.1109/TWC.2014.012314.130766},
+  timestamp = {Fri, 09 Jun 2017 11:03:47 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/twc/ZhanCLL14},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+@inproceedings{DBLP:conf/IEEEcloud/QinZL17,
+  author    = {Haiyan Qin and
+               Yonglong Zhang and
+               Bin Li},
+  title     = {Truthful Mechanism for Crowdsourcing Task Assignment},
+  booktitle = {2017 {IEEE} 10th International Conference on Cloud Computing (CLOUD),
+               Honolulu, HI, USA, June 25-30, 2017},
+  pages     = {520--527},
+  year      = {2017},
+  crossref  = {DBLP:conf/IEEEcloud/2017},
+  url       = {https://doi.org/10.1109/CLOUD.2017.72},
+  doi       = {10.1109/CLOUD.2017.72},
+  timestamp = {Wed, 11 Apr 2018 10:21:15 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/IEEEcloud/QinZL17},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+@inproceedings{DBLP:conf/cscwd/XuHTXLZ18,
+  author    = {Naiting Xu and
+               Kai Han and
+               Shaojie Tang and
+               Shuai Xu and
+               Feiyang Li and
+               Jiahao Zhang},
+  title     = {Privacy-Preserving Auction-based Incentive Mechanism for Mobile Crowdsensing
+               Systems},
+  booktitle = {22nd {IEEE} International Conference on Computer Supported Cooperative
+               Work in Design, {CSCWD} 2018, Nanjing, China, May 9-11, 2018},
+  pages     = {390--395},
+  year      = {2018},
+  crossref  = {DBLP:conf/cscwd/2018},
+  url       = {https://doi.org/10.1109/CSCWD.2018.8465249},
+  doi       = {10.1109/CSCWD.2018.8465249},
+  timestamp = {Wed, 19 Sep 2018 13:49:43 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/cscwd/XuHTXLZ18},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+@inproceedings{DBLP:conf/aaai/AmirSS15,
+  author    = {Ofra Amir and
+               Guni Sharon and
+               Roni Stern},
+  title     = {Multi-Agent Pathfinding as a Combinatorial Auction},
+  booktitle = {Proceedings of the Twenty-Ninth {AAAI} Conference on Artificial Intelligence,
+               January 25-30, 2015, Austin, Texas, {USA.}},
+  pages     = {2003--2009},
+  year      = {2015},
+  crossref  = {DBLP:conf/aaai/2015},
+  url       = {http://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9572},
+  timestamp = {Sun, 12 Apr 2015 15:18:08 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/aaai/AmirSS15},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+@inproceedings{DBLP:conf/icc/ZhanCC15,
+  author    = {Shun{-}Cheng Zhan and
+               Chun{-}Ting Chou and
+               Shi{-}Chung Chang},
+  title     = {Auction-based spectrum sharing among heterogeneous secondary networks},
+  booktitle = {2015 {IEEE} International Conference on Communications, {ICC} 2015,
+               London, United Kingdom, June 8-12, 2015},
+  pages     = {2160--2165},
+  year      = {2015},
+  crossref  = {DBLP:conf/icc/2015},
+  url       = {https://doi.org/10.1109/ICC.2015.7248645},
+  doi       = {10.1109/ICC.2015.7248645},
+  timestamp = {Sun, 04 Jun 2017 10:03:39 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/icc/ZhanCC15},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+@inproceedings{DBLP:conf/atal/SongKZX16,
+  author    = {Wen Song and
+               Donghun Kang and
+               Jie Zhang and
+               Hui Xi},
+  title     = {Decentralized Multi-Project Scheduling via Multi-Unit Combinatorial
+               Auction},
+  booktitle = {Proceedings of the 2016 International Conference on Autonomous Agents
+               {\&} Multiagent Systems, Singapore, May 9-13, 2016},
+  pages     = {836--844},
+  year      = {2016},
+  crossref  = {DBLP:conf/atal/2016},
+  url       = {http://dl.acm.org/citation.cfm?id=2937046},
+  timestamp = {Thu, 11 May 2017 14:15:01 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/atal/SongKZX16},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}

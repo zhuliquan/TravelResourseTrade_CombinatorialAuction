@@ -1,0 +1,279 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{15}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{Amir, Sharon, and Stern}{Amir
+  et~al\mbox{.}}{2015}]%
+        {DBLP:conf/aaai/AmirSS15}
+\bibfield{author}{\bibinfo{person}{Ofra Amir}, \bibinfo{person}{Guni Sharon},
+  {and} \bibinfo{person}{Roni Stern}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Multi-Agent Pathfinding as a Combinatorial
+  Auction}. In \bibinfo{booktitle}{\emph{Proceedings of the Twenty-Ninth {AAAI}
+  Conference on Artificial Intelligence, January 25-30, 2015, Austin, Texas,
+  {USA.}}} \bibinfo{pages}{2003--2009}.
+\newblock
+\urldef\tempurl%
+\url{http://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9572}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Cramton, Shoham, and Steinberg}{Cramton
+  et~al\mbox{.}}{2006}]%
+        {Cramton2006Combinatorial}
+\bibfield{author}{\bibinfo{person}{Peter Cramton}, \bibinfo{person}{Yoav
+  Shoham}, {and} \bibinfo{person}{Richard Steinberg}.}
+  \bibinfo{year}{2006}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Combinatorial Auctions}}.
+\newblock \bibinfo{publisher}{MIT Press,}. 147--176 pages.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Cui, Sun, Huang, Guo, Du, Yang, and Li}{Cui
+  et~al\mbox{.}}{2018}]%
+        {DBLP:conf/wcnc/CuiS0GDYL18}
+\bibfield{author}{\bibinfo{person}{Jingmei Cui}, \bibinfo{person}{Yu{-}e Sun},
+  \bibinfo{person}{He Huang}, \bibinfo{person}{Hansong Guo},
+  \bibinfo{person}{Yang Du}, \bibinfo{person}{Wenjian Yang}, {and}
+  \bibinfo{person}{Meixuan Li}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{{TCAM:} {A} truthful combinatorial auction
+  mechanism for crowdsourcing systems}. In \bibinfo{booktitle}{\emph{2018
+  {IEEE} Wireless Communications and Networking Conference, {WCNC} 2018,
+  Barcelona, Spain, April 15-18, 2018}}. \bibinfo{pages}{1--6}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/WCNC.2018.8377240}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Gleixner, Bastubbe, Eifler, Gally, Gamrath,
+  Gottwald, Hendel, Hojny, Koch, L{\"u}bbecke, Maher, Miltenberger, M{\"u}ller,
+  Pfetsch, Puchert, Rehfeldt, Schl{\"o}sser, Schubert, Serrano, Shinano,
+  Viernickel, Walter, Wegscheider, Witt, and Witzig}{Gleixner
+  et~al\mbox{.}}{2018}]%
+        {GleixnerEtal2018OO}
+\bibfield{author}{\bibinfo{person}{Ambros Gleixner}, \bibinfo{person}{Michael
+  Bastubbe}, \bibinfo{person}{Leon Eifler}, \bibinfo{person}{Tristan Gally},
+  \bibinfo{person}{Gerald Gamrath}, \bibinfo{person}{Robert~Lion Gottwald},
+  \bibinfo{person}{Gregor Hendel}, \bibinfo{person}{Christopher Hojny},
+  \bibinfo{person}{Thorsten Koch}, \bibinfo{person}{Marco~E. L{\"u}bbecke},
+  \bibinfo{person}{Stephen~J. Maher}, \bibinfo{person}{Matthias Miltenberger},
+  \bibinfo{person}{Benjamin M{\"u}ller}, \bibinfo{person}{Marc~E. Pfetsch},
+  \bibinfo{person}{Christian Puchert}, \bibinfo{person}{Daniel Rehfeldt},
+  \bibinfo{person}{Franziska Schl{\"o}sser}, \bibinfo{person}{Christoph
+  Schubert}, \bibinfo{person}{Felipe Serrano}, \bibinfo{person}{Yuji Shinano},
+  \bibinfo{person}{Jan~Merlin Viernickel}, \bibinfo{person}{Matthias Walter},
+  \bibinfo{person}{Fabian Wegscheider}, \bibinfo{person}{Jonas~T. Witt}, {and}
+  \bibinfo{person}{Jakob Witzig}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{{The SCIP Optimization Suite 6.0}}}.
+\newblock \bibinfo{type}{Technical Report}. \bibinfo{institution}{Optimization
+  Online}.
+\newblock
+\urldef\tempurl%
+\url{http://www.optimization-online.org/DB_HTML/2018/07/6692.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Howe}{Howe}{2006}]%
+        {howe2006rise}
+\bibfield{author}{\bibinfo{person}{Jeff Howe}.}
+  \bibinfo{year}{2006}\natexlab{}.
+\newblock \showarticletitle{The rise of crowdsourcing}.
+\newblock \bibinfo{journal}{\emph{Wired magazine}} \bibinfo{volume}{14},
+  \bibinfo{number}{6} (\bibinfo{year}{2006}), \bibinfo{pages}{1--4}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Ipeirotis}{Ipeirotis}{2010}]%
+        {ipeirotis2010analyzing}
+\bibfield{author}{\bibinfo{person}{Panagiotis~G Ipeirotis}.}
+  \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{Analyzing the amazon mechanical turk marketplace}.
+\newblock \bibinfo{journal}{\emph{XRDS: Crossroads, The ACM Magazine for
+  Students}} \bibinfo{volume}{17}, \bibinfo{number}{2} (\bibinfo{year}{2010}),
+  \bibinfo{pages}{16--21}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Liu, Li, Zhao, and Duan}{Liu
+  et~al\mbox{.}}{2018}]%
+        {liu2018reverse}
+\bibfield{author}{\bibinfo{person}{Yuanni Liu}, \bibinfo{person}{Huicong Li},
+  \bibinfo{person}{Guofeng Zhao}, {and} \bibinfo{person}{Jie Duan}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Reverse Auction Based Incentive Mechanism for
+  Location-Aware Sensing in Mobile Crowd Sensing}. In
+  \bibinfo{booktitle}{\emph{2018 IEEE International Conference on
+  Communications (ICC)}}. IEEE, \bibinfo{pages}{1--6}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Maher, Miltenberger, Pedroso, Rehfeldt,
+  Schwarz, and Serrano}{Maher et~al\mbox{.}}{2016}]%
+        {DBLP:conf/icms/MaherMPRSS16}
+\bibfield{author}{\bibinfo{person}{Stephen~J. Maher}, \bibinfo{person}{Matthias
+  Miltenberger}, \bibinfo{person}{Jo{\~{a}}o~Pedro Pedroso},
+  \bibinfo{person}{Daniel Rehfeldt}, \bibinfo{person}{Robert Schwarz}, {and}
+  \bibinfo{person}{Felipe Serrano}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{PySCIPOpt: Mathematical Programming in Python with
+  the {SCIP} Optimization Suite}. In \bibinfo{booktitle}{\emph{Mathematical
+  Software - {ICMS} 2016 - 5th International Conference, Berlin, Germany, July
+  11-14, 2016, Proceedings}}. \bibinfo{pages}{301--307}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1007/978-3-319-42432-3\_37}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Qin, Zhang, and Li}{Qin et~al\mbox{.}}{2017}]%
+        {DBLP:conf/IEEEcloud/QinZL17}
+\bibfield{author}{\bibinfo{person}{Haiyan Qin}, \bibinfo{person}{Yonglong
+  Zhang}, {and} \bibinfo{person}{Bin Li}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Truthful Mechanism for Crowdsourcing Task
+  Assignment}. In \bibinfo{booktitle}{\emph{2017 {IEEE} 10th International
+  Conference on Cloud Computing (CLOUD), Honolulu, HI, USA, June 25-30, 2017}}.
+  \bibinfo{pages}{520--527}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/CLOUD.2017.72}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Song, Kang, Zhang, and Xi}{Song
+  et~al\mbox{.}}{2016}]%
+        {DBLP:conf/atal/SongKZX16}
+\bibfield{author}{\bibinfo{person}{Wen Song}, \bibinfo{person}{Donghun Kang},
+  \bibinfo{person}{Jie Zhang}, {and} \bibinfo{person}{Hui Xi}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Decentralized Multi-Project Scheduling via
+  Multi-Unit Combinatorial Auction}. In \bibinfo{booktitle}{\emph{Proceedings
+  of the 2016 International Conference on Autonomous Agents {\&} Multiagent
+  Systems, Singapore, May 9-13, 2016}}. \bibinfo{pages}{836--844}.
+\newblock
+\urldef\tempurl%
+\url{http://dl.acm.org/citation.cfm?id=2937046}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Tran{-}Thanh, Huynh, Rosenfeld, Ramchurn, and
+  Jennings}{Tran{-}Thanh et~al\mbox{.}}{2015}]%
+        {DBLP:conf/aaai/Tran-ThanhHRRJ15}
+\bibfield{author}{\bibinfo{person}{Long Tran{-}Thanh},
+  \bibinfo{person}{Trung~Dong Huynh}, \bibinfo{person}{Avi Rosenfeld},
+  \bibinfo{person}{Sarvapali~D. Ramchurn}, {and} \bibinfo{person}{Nicholas~R.
+  Jennings}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Crowdsourcing Complex Workflows under Budget
+  Constraints}. In \bibinfo{booktitle}{\emph{Proceedings of the Twenty-Ninth
+  {AAAI} Conference on Artificial Intelligence, January 25-30, 2015, Austin,
+  Texas, {USA.}}} \bibinfo{pages}{1298--1304}.
+\newblock
+\urldef\tempurl%
+\url{http://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9529}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Xu, Xiang, and Yang}{Xu et~al\mbox{.}}{2015}]%
+        {DBLP:journals/twc/XuXY15}
+\bibfield{author}{\bibinfo{person}{Jia Xu}, \bibinfo{person}{Jinxin Xiang},
+  {and} \bibinfo{person}{Dejun Yang}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Incentive Mechanisms for Time Window Dependent
+  Tasks in Mobile Crowdsensing}.
+\newblock \bibinfo{journal}{\emph{{IEEE} Trans. Wireless Communications}}
+  \bibinfo{volume}{14}, \bibinfo{number}{11} (\bibinfo{year}{2015}),
+  \bibinfo{pages}{6353--6364}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/TWC.2015.2452923}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Xu, Han, Tang, Xu, Li, and Zhang}{Xu
+  et~al\mbox{.}}{2018}]%
+        {DBLP:conf/cscwd/XuHTXLZ18}
+\bibfield{author}{\bibinfo{person}{Naiting Xu}, \bibinfo{person}{Kai Han},
+  \bibinfo{person}{Shaojie Tang}, \bibinfo{person}{Shuai Xu},
+  \bibinfo{person}{Feiyang Li}, {and} \bibinfo{person}{Jiahao Zhang}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Privacy-Preserving Auction-based Incentive
+  Mechanism for Mobile Crowdsensing Systems}. In \bibinfo{booktitle}{\emph{22nd
+  {IEEE} International Conference on Computer Supported Cooperative Work in
+  Design, {CSCWD} 2018, Nanjing, China, May 9-11, 2018}}.
+  \bibinfo{pages}{390--395}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/CSCWD.2018.8465249}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Zhan, Chang, Luh, and Lieu}{Zhan
+  et~al\mbox{.}}{2014}]%
+        {DBLP:journals/twc/ZhanCLL14}
+\bibfield{author}{\bibinfo{person}{Shun{-}Cheng Zhan},
+  \bibinfo{person}{Shi{-}Chung Chang}, \bibinfo{person}{Peter~B. Luh}, {and}
+  \bibinfo{person}{Hao{-}Huai Lieu}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Truthful Auction Mechanism Design for
+  Short-Interval Secondary Spectrum Access Market}.
+\newblock \bibinfo{journal}{\emph{{IEEE} Trans. Wireless Communications}}
+  \bibinfo{volume}{13}, \bibinfo{number}{3} (\bibinfo{year}{2014}),
+  \bibinfo{pages}{1471--1481}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/TWC.2014.012314.130766}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Zhan, Chou, and Chang}{Zhan
+  et~al\mbox{.}}{2015}]%
+        {DBLP:conf/icc/ZhanCC15}
+\bibfield{author}{\bibinfo{person}{Shun{-}Cheng Zhan},
+  \bibinfo{person}{Chun{-}Ting Chou}, {and} \bibinfo{person}{Shi{-}Chung
+  Chang}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Auction-based spectrum sharing among heterogeneous
+  secondary networks}. In \bibinfo{booktitle}{\emph{2015 {IEEE} International
+  Conference on Communications, {ICC} 2015, London, United Kingdom, June 8-12,
+  2015}}. \bibinfo{pages}{2160--2165}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/ICC.2015.7248645}
+\showDOI{\tempurl}
+
+
+\end{thebibliography}

@@ -1,0 +1,173 @@
+%%
+%% sample document for AAMAS'19 conference
+%%
+%% modified from sample-sigconf.tex
+%%
+%% see ACM instructions acmguide.pdf
+%%
+%% AAMAS-specific questions? F.A.Oliehoek@tudelft.nl
+%%
+\documentclass[sigconf]{aamas}  % do not change this line!
+%% your usepackages here, for example:
+\usepackage{booktabs}
+\usepackage{algorithm}
+\usepackage{algorithmicx}
+\usepackage{algpseudocode}
+\usepackage{amsmath}
+\usepackage{subfigure}
+\usepackage{graphicx}
+%% do not change the following lines
+\setcopyright{ifaamas}  % do not change this line!
+\acmDOI{doi}  % do not change this line!
+\acmISBN{}  % do not change this line!
+\acmConference[AAMAS'19]{Proc.\@ of the 18th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2019), N.~Agmon, M.~E.~Taylor, E.~Elkind, M.~Veloso (eds.)}{May 2019}{Montreal, Canada}  % do not change this line!
+\acmYear{2019}  % do not change this line!
+\copyrightyear{2019}  % do not change this line!
+\acmPrice{}  % do not change this line!
+%% the rest of your preamble here
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\title{Solving Binding Task Assignment Problem in Crowdsourcing System via Reverse Combinatorial Auction}  % put your title here!
+%\titlenote{Produces the permission block, and copyright information}
+
+% AAMAS: as appropriate, uncomment one subtitle line; check the CFP
+%\subtitle{Extended Abstract}
+%\subtitle{Industrial Applications Track}
+%\subtitle{Socially Interactive Agents Track}
+%\subtitle{Blue Sky Ideas Track}
+%\subtitle{Engineering Multiagent Systems Track}
+%\subtitle{Robotics Track}
+%\subtitle{JAAMAS Track}
+%\subtitle{Doctoral Mentoring Program}
+
+%\subtitlenote{The full version of the author's guide is available as \texttt{acmart.pdf} document}
+
+
+% AAMAS: submissions are anonymous for most tracks
+\author{Paper 403}  % put your paper number here!
+
+%% example of author block for camera ready version of accepted papers: don't use for anonymous submissions
+%
+%\author{Ben Trovato}
+%\authornote{Dr.~Trovato insisted his name be first.}
+%\orcid{1234-5678-9012}
+%\affiliation{%
+%  \institution{Institute for Clarity in Documentation}
+%  \streetaddress{P.O. Box 1212}
+%  \city{Dublin}
+%  \state{Ohio}
+%  \postcode{43017-6221}
+%}
+%\email{trovato@corporation.com}
+%
+%\author{G.K.M. Tobin}
+%\authornote{The secretary disavows any knowledge of this author's actions.}
+%\affiliation{%
+%  \institution{Institute for Clarity in Documentation}
+%  \streetaddress{P.O. Box 1212}
+%  \city{Dublin}
+%  \state{Ohio}
+%  \postcode{43017-6221}
+%}
+%\email{webmaster@marysville-ohio.com}
+%
+%\author{Lars Th{\o}rv{\"a}ld}
+%\authornote{This author is the
+%  one who did all the really hard work.}
+%\affiliation{%
+%  \institution{The Th{\o}rv{\"a}ld Group}
+%  \streetaddress{1 Th{\o}rv{\"a}ld Circle}
+%  \city{Hekla}
+%  \country{Iceland}}
+%\email{larst@affiliation.org}
+%
+%\author{Valerie B\'eranger}
+%\affiliation{%
+%  \institution{Inria Paris-Rocquencourt}
+%  \city{Rocquencourt}
+%  \country{France}
+%}
+%\author{Aparna Patel}
+%\affiliation{%
+% \institution{Rajiv Gandhi University}
+% \streetaddress{Rono-Hills}
+% \city{Doimukh}
+% \state{Arunachal Pradesh}
+% \country{India}}
+%\author{Huifen Chan}
+%\affiliation{%
+%  \institution{Tsinghua University}
+%  \streetaddress{30 Shuangqing Rd}
+%  \city{Haidian Qu}
+%  \state{Beijing Shi}
+%  \country{China}
+%}
+%
+%\author{Charles Palmer}
+%\affiliation{%
+%  \institution{Palmer Research Laboratories}
+%  \streetaddress{8600 Datapoint Drive}
+%  \city{San Antonio}
+%  \state{Texas}
+%  \postcode{78229}}
+%\email{cpalmer@prl.com}
+%
+%\author{John Smith}
+%\affiliation{\institution{The Th{\o}rv{\"a}ld Group}}
+%\email{jsmith@affiliation.org}
+%
+%\author{Julius P.~Kumquat}
+%\affiliation{\institution{The Kumquat Consortium}}
+%\email{jpkumquat@consortium.net}
+%
+%% The example's default list of authors is too long for headers
+%\renewcommand{\shortauthors}{B. Trovato et al.}
+\begin{abstract}  % put your abstract here!
+In the literature, there are many works on task assignment in crowdsoucing system. However, most existing works in crowdsourcing haven't taken binding constraint of tasks into account, and do little research on truthful mechanism. In this paper, we consider a simple task assignment scenario, where the tasks with binding constraint have existed in a crowdsourcing platform, and tasks is announces by requester who just ask for single skill, self-interested workers that don't discriminate binding constraint and has demand constraint. As there is a binding constraint between tasks, we call problem as binding task assignment problem (BTAP). We focus on solving BTAP to achieve minimization of total cost of workers and using proper approach to guarantee truthfulness of the workers. We convert homogenous tasks with binding constraint into heterogeneous tasks with different attributes. We apply VCG-based reverse combinatorial auction to solve BTAP, and our approach to achieve good property, including incentive compatibility and individual rationality, budget balance. In our experiment, we evaluate the performance of our approach under different simulation settings.
+\end{abstract}
+% AAMAS: the ACM CCS are not needed within AAMAS papers
+%%
+%% The code below should be generated by the tool at
+%% http://dl.acm.org/ccs.cfm
+%% Please copy and paste the code instead of the example below.
+%%
+%\begin{CCSXML}
+%<ccs2012>
+% <concept>
+%  <concept_id>10010520.10010553.10010562</concept_id>
+%  <concept_desc>Computer systems organization~Embedded systems</concept_desc>
+%  <concept_significance>500</concept_significance>
+% </concept>
+% <concept>
+%  <concept_id>10010520.10010575.10010755</concept_id>
+%  <concept_desc>Computer systems organization~Redundancy</concept_desc>
+%  <concept_significance>300</concept_significance>
+% </concept>
+% <concept>
+%  <concept_id>10010520.10010553.10010554</concept_id>
+%  <concept_desc>Computer systems organization~Robotics</concept_desc>
+%  <concept_significance>100</concept_significance>
+% </concept>
+% <concept>
+%  <concept_id>10003033.10003083.10003095</concept_id>
+%  <concept_desc>Networks~Network reliability</concept_desc>
+%  <concept_significance>100</concept_significance>
+% </concept>
+%</ccs2012>
+%\end{CCSXML}
+%
+%\ccsdesc[500]{Computer systems organization~Embedded systems}
+%\ccsdesc[300]{Computer systems organization~Redundancy}
+%\ccsdesc{Computer systems organization~Robotics}
+%\ccsdesc[100]{Networks~Network reliability}
+\keywords{crowdsourcing system; binding task; task assignment; VCG; reverse combinatorial auction}  % put your semicolon-separated keywords here!
+\maketitle
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% start of main body of paper
+\input{samplebody-conf.tex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% bibliography: see CFP for number of permitted pages
+\bibliographystyle{ACM-Reference-Format}  % do not change this line!
+\bibliography{sample-bibliography}  % put name of your .bib file here
+\end{document} 
